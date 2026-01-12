@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
         {/* Logo and Social Icons */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
-          <div className="text-4xl font-bold">K12</div>
+          <div className="text-4xl font-bold">Evoluer e-Learning</div>
           <div className="flex gap-4">
             <a href="#" className="hover:opacity-80 transition-opacity">
               <Facebook size={20} />
