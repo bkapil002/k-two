@@ -9,6 +9,8 @@ import CardsSection from './CardsSection'
 import Stories from './Stories'
 import HelpSection from './HelpSection'
 import VideoGallery from './VideoGallery'
+import CrocsMaterialTable from './CrocsMaterialTable'
+import PricingPlans from './PricingPlans'
 
 const Homepage = () => {
   return (
@@ -18,8 +20,10 @@ const Homepage = () => {
       <Explore/>
       <VideoGallery/>
       <Students/>
+      <CrocsMaterialTable/>
       <OnlineLearning/>
       <ParentsWant/>
+      <PricingPlans/>
       <CardsSection/>
       <Stories/>
       <HelpSection/>

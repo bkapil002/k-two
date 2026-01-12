@@ -17,7 +17,7 @@ export default function Explore() {
               </p>
               
               <button className="inline-flex items-center px-8 py-4 bg-white text-gray-900 text-lg font-semibold rounded-full hover:bg-gray-50 transition-colors shadow-md hover:shadow-lg border-2 border-gray-900">
-                Take the Quiz
+                Learn More
               </button>
             </div>
 
