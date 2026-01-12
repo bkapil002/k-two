@@ -9,7 +9,7 @@ export default function Explore() {
             {/* Text Content */}
             <div className="w-full lg:w-1/2 p-8 md:p-12 lg:p-16 z-10">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Explore Everything K12 Has to Offer
+                Explore Everything Evoluer Learing Has to Offer
               </h2>
               
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-8 max-w-lg">

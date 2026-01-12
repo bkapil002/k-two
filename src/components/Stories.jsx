@@ -21,7 +21,7 @@ export default function Stories() {
           {/* Content Section */}
           <div className="w-full lg:w-2/3 text-center lg:text-left">
             <p className="text-purple-700 font-bold text-xs md:text-sm mb-2 uppercase tracking-wider">
-              REAL K12 STORIES
+              REAL Evoluer Learing STORIES
             </p>
             
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 lg:mb-8">
@@ -30,7 +30,7 @@ export default function Stories() {
             
             <blockquote className="mb-6 lg:mb-8">
               <p className="text-lg sm:text-xl lg:text-2xl text-gray-900 leading-relaxed mb-4">
-                "K12 empowers us to take our time back. It gives us control of our schedule. It gives us control of us raising our children the way that we want to raise them and for them to succeed in life."
+                "Evoluer Learing empowers us to take our time back. It gives us control of our schedule. It gives us control of us raising our children the way that we want to raise them and for them to succeed in life."
               </p>
             </blockquote>
 
@@ -41,7 +41,7 @@ export default function Stories() {
             </div>
 
             <div className="flex justify-center lg:justify-start">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-full text-sm md:text-base lg:text-lg transition-colors shadow-lg hover:shadow-xl flex items-center gap-2">
+              <button className="bg-[#2d2f92]  text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-full text-sm md:text-base lg:text-lg transition-colors shadow-lg hover:shadow-xl flex items-center gap-2">
                 Explore More Stories
                 <MessageCircle className="w-5 h-5" />
               </button>

@@ -30,7 +30,7 @@ export default function HelpSection() {
             
             <a
               href="#"
-              className="inline-flex items-center text-blue-600 hover:text-blue-700 font-bold text-sm md:text-base lg:text-lg transition-colors group"
+              className="inline-flex items-center text-[#2d2f92]  font-bold text-sm md:text-base lg:text-lg transition-colors group"
             >
               Contact Us
               <ArrowRight className="w-4 h-4 md:w-5 md:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -53,12 +53,12 @@ export default function HelpSection() {
             </div>
             
             <p className="text-gray-600 text-sm md:text-base lg:text-lg leading-relaxed mb-6 md:mb-8">
-              Ready to sign up? We can't wait to welcome your family to the K12 community.
+              Ready to sign up? We can't wait to welcome your family to the Evoluer Learing community.
             </p>
             
             <a
               href="#"
-              className="inline-flex items-center text-blue-600 hover:text-blue-700 font-bold text-sm md:text-base lg:text-lg transition-colors group"
+              className="inline-flex items-center text-[#2d2f92] hover:text-blue-700 font-bold text-sm md:text-base lg:text-lg transition-colors group"
             >
               Enroll Now
               <ArrowRight className="w-4 h-4 md:w-5 md:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -69,13 +69,13 @@ export default function HelpSection() {
         {/* Footer Disclaimers */}
         <div className="space-y-3 text-xs md:text-sm text-gray-600 leading-relaxed">
           <p>
-            K12 has served more than 3M registered learners through its managed public schools, private schools, and Learning Solutions. This information is directly from the Stride User Dashboard, which meticulously tracks registrations for every Stride product and service.
+           Evoluer Learing has served more than 3M registered learners through its managed public schools, private schools, and Learning Solutions. This information is directly from the Stride User Dashboard, which meticulously tracks registrations for every Stride product and service.
           </p>
           <p>
             Individual class schedules and requirements will vary by state, school, and the individual needs of each student. Course materials vary, and certain schools may not provide computers or may have specific requirements for providing equipment.
           </p>
           <p className="text-xs">
-            <sup>1</sup>Donesha is the parent of a 2022 student at a K12-powered school in VA, and their statement reflects their experience at their child's school.
+            <sup>1</sup>Donesha is the parent of a 2022 student at a Evoluer Learing-powered school in VA, and their statement reflects their experience at their child's school.
           </p>
         </div>
       </div>

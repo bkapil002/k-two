@@ -38,7 +38,7 @@ export default function ParentsWant() {
     },
     {
       question: 'What materials are sent to me?',
-      answer: 'K12 provides all necessary curriculum materials including textbooks, workbooks, art supplies, science lab materials, and any other resources needed for your student\'s courses. Everything is shipped directly to your home.'
+      answer: 'Evoluer Learing provides all necessary curriculum materials including textbooks, workbooks, art supplies, science lab materials, and any other resources needed for your student\'s courses. Everything is shipped directly to your home.'
     },
     {
       question: 'How do I enroll my student?',
@@ -78,7 +78,7 @@ export default function ParentsWant() {
         {/* FAQ Section */}
         <div className="bg-gray-100 rounded-2xl md:rounded-3xl p-6 md:p-10 lg:p-12">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-8 md:mb-10 text-center md:text-left">
-            What <span className="bg-blue-600 text-white px-2 py-1 rounded">Parents Want</span> to Know About Online School
+            What <span className="bg-[#2d2f92] text-white px-2 py-1 rounded">Parents Want</span> to Know About Online School
           </h2>
 
           {/* FAQ Items */}
@@ -97,9 +97,9 @@ export default function ParentsWant() {
                   </span>
                   <div className="flex-shrink-0">
                     {openIndex === index ? (
-                      <Minus className="w-5 h-5 md:w-6 md:h-6 text-blue-600" />
+                      <Minus className="w-5 h-5 md:w-6 md:h-6 text-[#2d2f92]" />
                     ) : (
-                      <Plus className="w-5 h-5 md:w-6 md:h-6 text-blue-600" />
+                      <Plus className="w-5 h-5 md:w-6 md:h-6 text-[#2d2f92]" />
                     )}
                   </div>
                 </button>
@@ -117,7 +117,7 @@ export default function ParentsWant() {
 
           {/* Learn More Button */}
           <div className="flex justify-center md:justify-start">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 md:py-4 px-8 md:px-10 rounded-full text-sm md:text-base lg:text-lg transition-colors shadow-lg hover:shadow-xl flex items-center gap-2">
+            <button className="bg-[#2d2f92]  text-white font-bold py-3 md:py-4 px-8 md:px-10 rounded-full text-sm md:text-base lg:text-lg transition-colors shadow-lg hover:shadow-xl flex items-center gap-2">
               Learn More
               <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

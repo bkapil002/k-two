@@ -8,21 +8,21 @@ export default function CardsSection() {
     {
       image: 'https://www.k12.com/wp-content/uploads/2026/01/K12_Midyear_HomepageTile.webp',
       title: "There's Still Time to Enroll Midyear",
-      description: "Want a better option for your child, but worried about switching schools midyear? Transfer with K12 and get the support you need every step of the way.",
+      description: "Want a better option for your child, but worried about switching schools midyear? Transfer with Evoluer Learing and get the support you need every step of the way.",
       linkText: "Transfer today!",
       linkUrl: "#"
     },
     {
       image: 'https://www.k12.com/wp-content/uploads/2026/01/K12Voices_Card-updated.webp',
       title: "What's your online school story?",
-      description: "Was it flexible scheduling, personalized learning, or new opportunities that made K12 right for your family? Every student has a story, and we want to know yours.",
-      linkText: "Join Our K12 Voices",
+      description: "Was it flexible scheduling, personalized learning, or new opportunities that made Evoluer Learing right for your family? Every student has a story, and we want to know yours.",
+      linkText: "Join Our Evoluer Learing Voices",
       linkUrl: "#"
     },
     {
       image: 'https://www.k12.com/wp-content/uploads/2025/11/Innovation-Challenge_Promo-Card.png',
       title: "Your Student's Idea Can Shape the Future",
-      description: "Got a creative thinker at home? The K12 Innovation Challenge invites all students in grades 6-12 to pitch ideas that could shape the future of learning. Their big idea could win them $500!",
+      description: "Got a creative thinker at home? The Evoluer Learing Innovation Challenge invites all students in grades 6-12 to pitch ideas that could shape the future of learning. Their big idea could win them $500!",
       linkText: "Get Contest Details",
       linkUrl: "#"
     }
@@ -63,7 +63,7 @@ export default function CardsSection() {
                 </p>
                 <a
                   href={card.linkUrl}
-                  className="inline-block text-blue-600 hover:text-blue-700 font-bold text-sm lg:text-base transition-colors"
+                  className="inline-block text-[#2d2f92] font-bold text-sm lg:text-base transition-colors"
                 >
                   {card.linkText}
                 </a>
@@ -93,7 +93,7 @@ export default function CardsSection() {
                 </p>
                 <a
                   href={cards[currentSlide].linkUrl}
-                  className="inline-block text-blue-600 hover:text-blue-700 font-bold text-sm transition-colors"
+                  className="inline-block text-[#2d2f92]hover:text-blue-700 font-bold text-sm transition-colors"
                 >
                   {cards[currentSlide].linkText}
                 </a>
@@ -105,7 +105,7 @@ export default function CardsSection() {
               {/* Previous Button */}
               <button
                 onClick={prevSlide}
-                className="w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center shadow-lg transition-colors"
+                className="w-12 h-12 rounded-full bg-[#2d2f92]hover:bg-blue-700 text-white flex items-center justify-center shadow-lg transition-colors"
                 aria-label="Previous slide"
               >
                 <ChevronLeft className="w-6 h-6" />
@@ -114,7 +114,7 @@ export default function CardsSection() {
               {/* Next Button */}
               <button
                 onClick={nextSlide}
-                className="w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center shadow-lg transition-colors"
+                className="w-12 h-12 rounded-full bg-[#2d2f92]hover:bg-blue-700 text-white flex items-center justify-center shadow-lg transition-colors"
                 aria-label="Next slide"
               >
                 <ChevronRight className="w-6 h-6" />
@@ -128,7 +128,7 @@ export default function CardsSection() {
                     onClick={() => setCurrentSlide(index)}
                     className={`w-2 h-2 rounded-full transition-all ${
                       index === currentSlide
-                        ? 'bg-blue-600 w-6'
+                        ? 'bg-[#2d2f92]w-6'
                         : 'bg-gray-300'
                     }`}
                     aria-label={`Go to slide ${index + 1}`}

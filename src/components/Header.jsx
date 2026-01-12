@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Search, ChevronDown, Phone, User, Globe } from 'lucide-react';
+import logo from '../image/logo.png'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,15 +13,15 @@ export default function Header() {
       <div className="hidden lg:block bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-end items-center h-12 space-x-6 text-sm">
-            <a href="tel:866.968.7512" className="flex items-center  font-semibold text-gray-700 hover:text-blue-600">
+            <a href="tel:866.968.7512" className="flex items-center  font-semibold text-gray-700 hover:text-[#2d2f92]">
               <Phone className="w-4 h-4 mr-2" />
-              866.968.7512
+              98252 52525
             </a>
-            <a href="#" className="flex items-center text-gray-700 font-semibold hover:text-blue-600">
+            <a href="#" className="flex items-center text-gray-700 font-semibold hover:text-[#2d2f92]">
               <User className="w-4 h-4 mr-2" />
-              K12 School Login
+              Login for Student
             </a>
-            <button className="flex items-center text-gray-700 hover:text-blue-600">
+            <button className="flex items-center text-gray-700 hover:text-[#2d2f92]">
               <Globe className="w-4 h-4 mr-2" />
             </button>
           </div>
@@ -33,47 +34,43 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
-              <svg className="h-10 w-20" viewBox="0 0 80 40" fill="none">
-                <text x="0" y="30" fontSize="32" fontWeight="bold" fill="#0066FF">k12</text>
-              </svg>
+              <img src={logo} alt='logo' className='w-30 md:w-50' />
             </a>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <a href="#" className="flex items-center text-gray-900 font-bold hover:text-blue-600 ">
-              Why K12 <ChevronDown className="ml-1 w-4 h-4" />
+            <a href="#" className="flex items-center text-gray-900  font-semibold hover:text-[#2d2f92] ">
+              Why Evoluer Learing 
             </a>
-            <a href="#" className="flex items-center text-gray-900 hover:text-blue-600 font-bold">
-              Academics <ChevronDown className="ml-1 w-4 h-4" />
+            <a href="#" className="flex items-center text-gray-900 hover:text-[#2d2f92]  font-semibold">
+              Progtamme 
             </a>
-            <a href="#" className="flex items-center text-gray-900 hover:text-blue-600 font-bold">
-              Student Life <ChevronDown className="ml-1 w-4 h-4" />
+            <a href="#" className="flex items-center text-gray-900 hover:text-[#2d2f92] font-semibold">
+              Activities 
             </a>
-            <a href="#" className="flex items-center text-gray-900 hover:text-blue-600 font-bold">
-              Enroll <ChevronDown className="ml-1 w-4 h-4" />
+            <a href="#" className="flex items-center text-gray-900 hover:text-[#2d2f92]  font-semibold">
+              Find a Centers 
             </a>
-            <a href="#" className="text-gray-900 hover:text-blue-600 font-bold">
-              Find a School
-            </a>
+           
           </nav>
 
           {/* Desktop Action Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <button className="p-2 text-gray-700 hover:text-blue-600">
+            <button className="p-2 text-gray-700 hover:text-[#2d2f92]">
               <Search className="w-5 h-5" />
             </button>
-            <a href="#" className="px-6 py-2.5 border-2 border-blue-600 text-blue-600 rounded-full font-semibold hover:bg-blue-50 transition">
+            <a href="#" className="px-6 py-2.5 border-2 border-[#2d2f92] text-[#2d2f92] rounded-full font-semibold hover:bg-blue-50 transition">
               More Info
             </a>
-            <a href="#" className="px-6 py-2.5 bg-green-500 text-white rounded-full font-semibold hover:bg-green-600 transition">
-              Enroll Now
+            <a href="#" className="px-6 py-2.5 bg-[#2d2f92] text-white rounded-full font-semibold  transition">
+              join Now
             </a>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex lg:hidden items-center space-x-3">
-            <a href="#" className="text-blue-600 text-sm font-semibold">
+            <a href="#" className="text-[#2d2f92] text-sm font-semibold">
               Find a School
             </a>
             <button className="p-2 text-gray-700">
@@ -92,19 +89,19 @@ export default function Header() {
           <nav className="px-4 py-4 space-y-1">
             <a href="#" className="flex items-center justify-between py-3 text-gray-900 font-semibold border-b border-gray-100">
               Why K12
-              <ChevronDown className="w-5 h-5 text-blue-600" />
+              <ChevronDown className="w-5 h-5 text-[#2d2f92]" />
             </a>
             <a href="#" className="flex items-center justify-between py-3 text-gray-900 font-semibold border-b border-gray-100">
               Academics
-              <ChevronDown className="w-5 h-5 text-blue-600" />
+              <ChevronDown className="w-5 h-5 text-[#2d2f92]" />
             </a>
             <a href="#" className="flex items-center justify-between py-3 text-gray-900 font-semibold border-b border-gray-100">
               Student Life
-              <ChevronDown className="w-5 h-5 text-blue-600" />
+              <ChevronDown className="w-5 h-5 text-[#2d2f92]" />
             </a>
             <a href="#" className="flex items-center justify-between py-3 text-gray-900 font-semibold border-b border-gray-100">
               Enroll
-              <ChevronDown className="w-5 h-5 text-blue-600" />
+              <ChevronDown className="w-5 h-5 text-[#2d2f92]" />
             </a>
           </nav>
 

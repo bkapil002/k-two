@@ -3,7 +3,7 @@ import { Facebook, Instagram, Linkedin, Youtube, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-700 text-white">
+    <footer className="bg-[#2d2f92] text-white">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
         {/* Logo and Social Icons */}
@@ -44,12 +44,12 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Popular Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:underline">About K12</a></li>
-              <li><a href="#" className="hover:underline">What Sets K12 Apart</a></li>
+              <li><a href="#" className="hover:underline">About Evoluer Learing</a></li>
+              <li><a href="#" className="hover:underline">What Sets Evoluer Learing Apart</a></li>
               <li><a href="#" className="hover:underline">How Online Learning Works</a></li>
               <li><a href="#" className="hover:underline">A Day in the Life</a></li>
               <li><a href="#" className="hover:underline">Attend an Event</a></li>
-              <li><a href="#" className="hover:underline">K12 Private Academy</a></li>
+              <li><a href="#" className="hover:underline">Evoluer Learing Private Academy</a></li>
             </ul>
           </div>
 
@@ -111,7 +111,7 @@ export default function Footer() {
         </div>
 
         {/* Disclaimer Text */}
-        <div className="text-xs mb-6 space-y-4 border-t border-blue-600 pt-6">
+        <div className="text-xs mb-6 space-y-4 border-t border-[#525391] pt-6">
           <p>
             Families do not pay tuition for a student to attend an online public school. Common household items and office supplies like printer ink and paper are not provided. Our enrollment consultants can help address your technology and computer questions and needs.
           </p>
@@ -119,7 +119,7 @@ export default function Footer() {
             <a href="#" className="underline hover:no-underline">Florida VPK (Virtual Instruction Program) Provider Disclosure Information</a>
           </p>
           <p>
-            Stride (K12 Inc.) tracks on the NYSE under the symbol LRN.
+            Stride (Evoluer Learing Inc.) tracks on the NYSE under the symbol LRN.
           </p>
           <p>
             Copyright © 2025 Stride, Inc. All rights reserved. The Stride wordmark, logo, and other marks referenced herein are trademarks of Stride, Inc. and its subsidiaries. Other company names and trademarks are the property of their respective owners.
@@ -127,7 +127,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Links */}
-        <div className="flex flex-wrap gap-4 text-xs border-t border-blue-600 pt-6">
+        <div className="flex flex-wrap gap-4 text-xs border-t border-[#525391] pt-6">
           <a href="#" className="hover:underline">Terms of Use</a>
           <a href="#" className="hover:underline">Privacy Policy</a>
           <a href="#" className="hover:underline">Your Privacy Choices </a>

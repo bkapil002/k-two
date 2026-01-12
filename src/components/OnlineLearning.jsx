@@ -25,7 +25,7 @@ export default function OnlineLearning() {
             <div className="relative w-full max-w-md lg:max-w-2xl mx-auto">
               
               {/* Blue Circle – Mobile Only */}
-              <div className="absolute inset-0 w-60 left-15 aspect-square bg-sky-400 rounded-full md:hidden"></div>
+              <div className="absolute inset-0 w-60 left-15 aspect-square bg-[#2d2f92] rounded-full md:hidden"></div>
 
               {/* Image */}
               <img
@@ -42,14 +42,3 @@ export default function OnlineLearning() {
   );
 }
 
-// src="https://www.k12.com/wp-content/uploads/2025/02/K12-HP-HowItWorks-Desktop.png" 
-
-<div className="w-full lg:w-1/2 order-1 lg:order-2">
-            <div className="relative max-w-2xl mx-auto">
-              <img 
-                src="https://www.k12.com/wp-content/uploads/2025/02/K12-HP-HowItWorks-Desktop.png" 
-                alt="K12 Online Learning Platform" 
-                className="w-full h-auto"
-              />
-            </div>
-          </div>

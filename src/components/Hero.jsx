@@ -8,15 +8,15 @@ export default function K12Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Explore K12's Online School Programs for Grades K-12
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight mb-6">
+              India’s first comprehensive online programme dedicated to neurodiversity students
             </h1>
             
-            <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-              Learning isn't one size fits all. With full-time school programs and other learning options tailored to each child's needs, interests, and goals for the future — there's something for every learner.
+            <p className="text-base sm:text-[18px] lg:text-[20px] text-gray-600 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+              The programme empowers diverse learners through personalised support, expert guidance, and accessible digital education, fostering academic growth, life skills, and long-term independence in a professional, supportive environment.
             </p>
             
-            <button className="inline-flex items-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-full hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform">
+            <button className="inline-flex items-center px-8 py-4 bg-[#2d2f92] text-white text-lg font-semibold rounded-full hover:bg-[#2d2f92] transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform">
               Get Started
               <Heart className="ml-2 w-5 h-5 fill-current" />
             </button>
