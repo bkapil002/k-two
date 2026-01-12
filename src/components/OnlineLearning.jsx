@@ -16,7 +16,7 @@ export default function OnlineLearning() {
             </h2>
             
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Dedicated teachers, quality curriculum, learning materials, and supportive community make for a great school experience. K12 provides everything your child needs to thrive.
+              Dedicated teachers, quality curriculum, learning materials, and supportive community make for a great school experience. Evoluer Learing provides everything your child needs to thrive.
             </p>
           </div>
 

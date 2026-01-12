@@ -17,7 +17,7 @@ export default function Header() {
               <Phone className="w-4 h-4 mr-2" />
               98252 52525
             </a>
-            <a href="#" className="flex items-center text-gray-700 font-semibold hover:text-[#2d2f92]">
+            <a href="/signin" className="flex items-center text-gray-700 font-semibold hover:text-[#2d2f92]">
               <User className="w-4 h-4 mr-2" />
               Login for Student
             </a>
@@ -63,7 +63,7 @@ export default function Header() {
             <a href="#" className="px-6 py-2.5 border-2 border-[#2d2f92] text-[#2d2f92] rounded-full font-semibold hover:bg-blue-50 transition">
               More Info
             </a>
-            <a href="#" className="px-6 py-2.5 bg-[#2d2f92] text-white rounded-full font-semibold  transition">
+            <a href="/signin" className="px-6 py-2.5 bg-[#2d2f92] text-white rounded-full font-semibold  transition">
               join Now
             </a>
           </div>

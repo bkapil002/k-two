@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Play, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function VideoGallery() {
 
@@ -160,11 +161,11 @@ export default function VideoGallery() {
             ))}
           </div>
           <div className="flex justify-center mt-10">
-              <button
-                className="px-7 py-2 bg-[#2d2f92] text-white text-[17px] font-semibold rounded-full transition-colors shadow-lg hover:shadow-xl"
+              <Link to='/signin'
+                className="px-7 py-2 cursor-pointer bg-[#2d2f92] text-white text-[17px] font-semibold rounded-full transition-colors shadow-lg hover:shadow-xl"
               >
                 Load More
-              </button>
+              </Link>
             </div>
         </div>
 
@@ -178,12 +179,12 @@ export default function VideoGallery() {
 
 
             <div className="flex justify-center mt-10">
-              <button
+              <Link to='/signin'
                 onClick={loadMore}
                 className="px-8 py-3 bg-[#2d2f92] text-white text-lg font-semibold rounded-full transition-colors shadow-lg hover:shadow-xl"
               >
                 Load More
-              </button>
+              </Link>
             </div>
 
         </div>
