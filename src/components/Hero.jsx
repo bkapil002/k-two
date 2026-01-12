@@ -18,7 +18,6 @@ export default function K12Hero() {
             
             <button className="inline-flex items-center px-8 py-4 bg-[#2d2f92] text-white text-lg font-semibold rounded-full hover:bg-[#2d2f92] transition-colors shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform">
               Get Started
-              <Heart className="ml-2 w-5 h-5 fill-current" />
             </button>
           </div>
 
