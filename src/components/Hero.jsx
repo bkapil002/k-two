@@ -1,5 +1,4 @@
-import React from 'react';
-import { Heart } from 'lucide-react';
+import hero from'../image/hero.png'
 
 export default function K12Hero() {
   return (
@@ -24,7 +23,7 @@ export default function K12Hero() {
           {/* Image Content */}
           <div className="w-full lg:w-1/2 order-1 lg:order-2">
             <img 
-              src="https://www.k12.com/wp-content/uploads/2025/07/K12-HP-Hero-Large-Desktop.png" 
+              src={hero}
               alt="K12 Online Learning" 
               className="w-full h-auto rounded-2xl"
             />

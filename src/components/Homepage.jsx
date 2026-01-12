@@ -8,6 +8,7 @@ import ParentsWant from './ParentsWant'
 import CardsSection from './CardsSection'
 import Stories from './Stories'
 import HelpSection from './HelpSection'
+import VideoGallery from './VideoGallery'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Hero/>
       <Features/>
       <Explore/>
+      <VideoGallery/>
       <Students/>
       <OnlineLearning/>
       <ParentsWant/>

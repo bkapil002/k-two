@@ -1,8 +1,8 @@
-import React from 'react';
+import explore from '../image/Explore.png'
 
 export default function Explore() {
   return (
-    <section className="bg-white py-12 md:py-16 lg:py-20">
+    <section className="bg-white py-12 md:py-8 lg:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative bg-gradient-to-br from-green-50 via-green-100 to-blue-100 rounded-3xl overflow-hidden">
           <div className="flex flex-col lg:flex-row items-center">
@@ -25,16 +25,16 @@ export default function Explore() {
             <div className="w-full lg:w-1/2 relative">
               {/* Mobile Image */}
               <img 
-                src="https://www.k12.com/wp-content/uploads/2025/11/girl-globe-breakpoint-mobile.png" 
+                src={explore}
                 alt="Girl with globe" 
-                className="block lg:hidden w-full h-auto"
+                className="block lg:hidden pl- h-auto  rounded-2xl"
               />
               
               {/* Desktop Image */}
               <img 
-                src="https://www.k12.com/wp-content/uploads/2025/11/girl-globe-breakpoint-desktop.png" 
+                src={explore}
                 alt="Girl with globe" 
-                className="hidden lg:block w-full h-auto"
+                className="hidden lg:block w-140 h-auto  rounded-2xl"
               />
             </div>
           </div>
